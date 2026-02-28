@@ -231,3 +231,129 @@ body {
   border-radius: 24px;
   object-fit: cover;
 }
+
+
+
+
+
+.inventory {
+  padding: 60px 20px;
+  font-family: system-ui, sans-serif;
+  background: #f8fafc;
+}
+
+.inventory-header {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.inventory-header h2 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.inventory-header p {
+  margin: 6px 0 0;
+  color: #6b7280;
+}
+
+.btn-add {
+  background: #1d4ed8;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inventory-card {
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+.inventory-toolbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.inventory-toolbar input {
+  width: 280px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.toolbar-right {
+  display: flex;
+  gap: 12px;
+}
+
+.toolbar-right select,
+.filter-btn {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #f9fafb;
+}
+
+th, td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.available {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.low {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.use {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.maintenance {
+  background: #fee2e2;
+  color: #b91c1c;
+}

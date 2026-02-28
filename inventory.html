@@ -74,6 +74,90 @@
   </div>
 </section>
 
+<!-- data -->
+
+<section class="inventory">
+  <div class="inventory-header">
+    <div>
+      <h2>Inventory</h2>
+      <p>Manage and track your equipment database.</p>
+    </div>
+    <button class="btn-add">+ Add New Tool</button>
+  </div>
+
+  <div class="inventory-card">
+
+    <div class="inventory-toolbar">
+      <input type="text" placeholder="Search by name or ID..." />
+
+      <div class="toolbar-right">
+        <select>
+          <option>All Categories</option>
+          <option>Power Tools</option>
+          <option>Hand Tools</option>
+          <option>Measuring</option>
+        </select>
+        <button class="filter-btn">⚙</button>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Tool Name</th>
+          <th>Category</th>
+          <th>Qty</th>
+          <th>Location</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>T-1001</td>
+          <td class="bold">DeWalt 20V Max Cordless Drill</td>
+          <td>Power Tools</td>
+          <td>12</td>
+          <td>Shelf A-1</td>
+          <td><span class="status available">Available</span></td>
+        </tr>
+        <tr>
+          <td>T-1002</td>
+          <td class="bold">Milwaukee Impact Driver</td>
+          <td>Power Tools</td>
+          <td>8</td>
+          <td>Shelf A-2</td>
+          <td><span class="status low">Low Stock</span></td>
+        </tr>
+        <tr>
+          <td>T-1003</td>
+          <td class="bold">Stanley FatMax Tape Measure 25'</td>
+          <td>Measuring</td>
+          <td>24</td>
+          <td>Bin B-1</td>
+          <td><span class="status available">Available</span></td>
+        </tr>
+        <tr>
+          <td>T-1004</td>
+          <td class="bold">Bosch Laser Distance Measure</td>
+          <td>Measuring</td>
+          <td>5</td>
+          <td>Site 3</td>
+          <td><span class="status use">In Use</span></td>
+        </tr>
+        <tr>
+          <td>T-1007</td>
+          <td class="bold">Fluke 117 Electricians Multimeter</td>
+          <td>Diagnostics</td>
+          <td>3</td>
+          <td>Lab 1</td>
+          <td><span class="status maintenance">Maintenance</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</section>
 
 
 
