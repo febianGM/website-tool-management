@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website tool management</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>website tool management</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,200 +18,190 @@
 
 
 <body>
-    
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-  <div class="container">
-    <!-- Logo -->
-    <a class="navbar-brand" href="#">
-      <img src="imges/logo.png" alt="Logo" height="100">
-    </a>
 
-    <!-- Toggle -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="imges/logo.png" alt="Logo" height="100">
+        </a>
+
+        <!-- Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
 
-    <!-- Menu -->
-    <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="inventory.html">Inventory</a></li>
-        <li class="nav-item"><a class="nav-link" href="tool-detail.html">Tool Detail</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<section class="hero">
-  <div class="hero-container">
+        <!-- Menu -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="inventory.html">Inventory</a></li>
+            <li class="nav-item"><a class="nav-link" href="tool-detail.html">Tool Detail</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <div class="hero-text">
-      <span class="badge">● Tool Management v0.0.1</span>
+  <style>
+    /* 
+    ** Custom styles for homepage 
+    */
+    .bg-thumbnails {
+      background-color: #0118D8;
+    }
 
-      <h1>
-        Precision Tool<br>
-        <span>Inventory Control</span>
-      </h1>
+    .border-one {
+      border-color: #E9DFC3;
+    }
 
-      <p>
-        Streamline your workshop operations with our advanced tracking
-        system. Monitor stock levels, track tool usage, and maintain
-        efficiency.
-      </p>
+    .border-two {
+      border-color: #F8F9FA;
+    }
 
-      <div class="hero-actions">
-        <a href="#" class="btn primary">View Inventory →</a>
-        <a href="#" class="btn secondary">Learn More</a>
+    .box {
+      background-color: #E9DFC3;
+      width: auto;
+      height: 339px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+  <main>
+    <section class="mx-auto my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 my-5">
+            <div class="hero-text">
+              <span class="badge">● Tool Management v0.0.1</span>
+
+              <h1>
+                Precision Tool<br>
+                <span>Inventory Control</span>
+              </h1>
+
+              <p>
+                Streamline your workshop operations with our advanced tracking
+                system. Monitor stock levels, track tool usage, and maintain
+                efficiency.
+              </p>
+
+              <div class="hero-actions">
+                <a href="/inventory.html" class="btn primary">View Inventory →</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 my-5">
+            <div class="hero-image">
+              <img src="imges/Solid-Mechanics-lab.jpg" alt="Workshop tools">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mx-auto my-5 py-5 bg-thumbnails">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <div class="feature-card border-one">
+              <div class="icon-box blue">
+                📦
+              </div>
+              <h3>Real-time Tracking</h3>
+              <p>
+                Monitor tool availability and location in real-time.
+                Never lose track of valuable equipment again.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="feature-card orange highlight">
+              <div class="icon-box orange">
+                🛡️
+              </div>
+              <h3>Automated Audits</h3>
+              <p>
+                Schedule regular inventory checks and get alerts for
+                maintenance requirements automatically.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="feature-card border-two">
+              <div class="icon-box blue">
+                🚚
+              </div>
+              <h3>Supplier Integration</h3>
+              <p>
+                Seamlessly connect with suppliers for restocking.
+                Manage orders and deliveries in one place.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="mx-auto mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 my-5">
+            <div class="box hero-image">
+              <img src="#" class="d-none" alt="Workshop tools">
+            </div>
+          </div>
+          <div class="col-md-6 my-5">
+            <div class="hero-text">
+              <span class="badge">● Tool Management v0.0.1</span>
+              <h1>
+                Lorem Ipsum Dolor Sit Amet
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="/" class="btn float-end secondary">Learn More</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="py-3 my-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="h-75 d-flex align-items-center justify-content-center">
+            <img src="./imges/logo.png" alt="Logo" class="d-none w-50">
+          </div>
+          <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="inventory.html" class="nav-link px-2 text-body-secondary">Inventory</a></li>
+            <li class="nav-item"><a href="tool-detail.html" class="nav-link px-2 text-body-secondary">Tool Detail</a>
+            </li>
+            <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2026 Company, Inc</p>
+        </div>
       </div>
     </div>
+  </footer>
 
-    <div class="hero-image">
-      <img src="imges/Solid-Mechanics-lab.jpg"
-           alt="Workshop tools">
-    </div>
-
-  </div>
-</section>
-
-<!-- data -->
-
-<section class="inventory">
-  <div class="inventory-header">
-    <div>
-      <h2>Inventory</h2>
-      <p>Manage and track your equipment database.</p>
-    </div>
-    <button class="btn-add">+ Add New Tool</button>
-  </div>
-
-  <div class="inventory-card">
-
-    <div class="inventory-toolbar">
-      <input type="text" placeholder="Search by name or ID..." />
-
-      <div class="toolbar-right">
-        <select>
-          <option>All Categories</option>
-          <option>Power Tools</option>
-          <option>Hand Tools</option>
-          <option>Measuring</option>
-        </select>
-        <button class="filter-btn">⚙</button>
-      </div>
-    </div>
-
-    <table>
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Tool Name</th>
-          <th>Category</th>
-          <th>Qty</th>
-          <th>Location</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>T-1001</td>
-          <td class="bold">DeWalt 20V Max Cordless Drill</td>
-          <td>Power Tools</td>
-          <td>12</td>
-          <td>Shelf A-1</td>
-          <td><span class="status available">Available</span></td>
-        </tr>
-        <tr>
-          <td>T-1002</td>
-          <td class="bold">Milwaukee Impact Driver</td>
-          <td>Power Tools</td>
-          <td>8</td>
-          <td>Shelf A-2</td>
-          <td><span class="status low">Low Stock</span></td>
-        </tr>
-        <tr>
-          <td>T-1003</td>
-          <td class="bold">Stanley FatMax Tape Measure 25'</td>
-          <td>Measuring</td>
-          <td>24</td>
-          <td>Bin B-1</td>
-          <td><span class="status available">Available</span></td>
-        </tr>
-        <tr>
-          <td>T-1004</td>
-          <td class="bold">Bosch Laser Distance Measure</td>
-          <td>Measuring</td>
-          <td>5</td>
-          <td>Site 3</td>
-          <td><span class="status use">In Use</span></td>
-        </tr>
-        <tr>
-          <td>T-1007</td>
-          <td class="bold">Fluke 117 Electricians Multimeter</td>
-          <td>Diagnostics</td>
-          <td>3</td>
-          <td>Lab 1</td>
-          <td><span class="status maintenance">Maintenance</span></td>
-        </tr>
-      </tbody>
-    </table>
-
-  </div>
-</section>
-
-
-
-
-<!-- footer -->
-
-<footer class="footer">
-  <div class="footer-container">
-
-    <div class="footer-brand">
-      <div class="logo">
-        <img src="imges/logo.png" alt="Logo" height="60"> <span>Tool Management</span>
-      </div>
-      <p>
-        Professional inventory management solutions for workshops,
-        factories, and industrial sites.
-      </p>
-    </div>
-
-    <div class="footer-col">
-      <h4>Company</h4>
-      <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-col">
-      <h4>Resources</h4>
-      <ul>
-        <li><a href="#">Documentation</a></li>
-        <li><a href="#">Support Center</a></li>
-        <li><a href="#">Terms of Service</a></li>
-      </ul>
-    </div>
-
-    
-
-  </div>
-
-  <div class="footer-bottom">
-    <span>© 2025 Tool Management. All rights reserved.</span>
-    <span>Designed for industrial use</span>
-  </div>
-</footer>
-
-<!-- ================= SCRIPTS ================= -->
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/style.js"></script>
+  <!-- ================= SCRIPTS ================= -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/style.js"></script>
 
 </body>
+
 </html>
 
 </html>
